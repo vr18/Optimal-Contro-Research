@@ -1,2 +1,2 @@
-# Optimal-Contro-Research
+# Optimal-Control-Research
 Research stuff
