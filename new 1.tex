@@ -1,0 +1,32 @@
+\documentclass{article}
+\begin{document}
+
+\begin{center}
+
+{\bf RESEARCH BASICS}
+
+\end{center} 
+
+Generally, there is a vibration in structures like bridges, buildings etc. due to the transfer of energy from fluids to the structures. These forces are also known as self-excited or aero-elastic forces or the phenomenon is also known as flutter.\\
+These kinds of forces generally have a negative effect on the bodies. But, flutter can generally be used positively. For Eg. the energy from the vibration of bodies can be converted to electrical energy. Not a lot of research has been carried out in this field.\\
+One group is trying to find out flutter derivatives for rectangular deck. My task will be to convert the energy from the vibrating structures into electrical energy.\\
+When the structure comes in contact with the fluid for the first time, energy gets transfered from the fluid to the structure after which continuous contact results in self-excitation of the structure. Energy can generally be extracted from a body in this mode by connecting a generator (may be linear in this case.\\
+According to the theory, the generator exerts a force on the structure. This force restricts the motion of the structure. This restricting or negative force facilitates energy transfer.\\
+The Equation of Motion for a 1-DOF structure can be written as:\\
+$m\ddot{y} + c\dot{y} + ky = f_{body} + u$\\
+Here, u $\rightarrow$ control force provided by the PTO(Power Take off Unit) Unit.\\
+c is the radiation damping component. Here, radiation means the effect of the PTO downstream of the wind.\\
+
+Now, the velocity of vibration of the structure can be represented as $\dot{y(t)}$, i.e. it is the y-component of velocity.\\
+Hence, Power = u$\dot{y(t)}$\\
+Similarly, Energy, E = Power * time $\Rightarrow \int^T_0u\dot{y(t)}\,dt$\\
+From the above equation, we are supposed to find u(t) that maximizes E. We do this because, fluid-structure interaction does not remain the same continuously over a period of time but instead varies.\\
+This type of problem is known as Optimal Control Problem.\\
+Subject to constraints\\
+$y_(min) < y < y_(max)$\\  
+$\dot{y_(min)} < \dot{y} < \dot{y_(max)}$\\
+$u_(min) < u < u_(max)$\\
+
+
+Reviewing the paper {\bf Optimal Control of Wave Energy Converters}\\
+\end{document}
